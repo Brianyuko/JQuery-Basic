@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // (Selection).metodenya
     $('h1').css('color', 'green');
-    $('#box1').css('color', 'blue');
+    $('#box1').css('color', 'white');
     $('.boxes').css('color', 'red');
     $('.boxes:first').css('color', 'blue');
     $('.boxes:last').css('color', 'green');
@@ -32,5 +32,14 @@ $(document).ready(function(){
         //$('#wrap_boxes').removeClass('change');
         $(this).css('width', '300')
     });
+
+    // Dimensi
+    // Width/Height -> Content
+    // innerWidth/Height -> Content + Padding
+    // outerWidth/Height -> Content + Padding + Border
+    // outerWidth/Height(true) -> Content + Padding + Border + Margin
+    var nilaiBox1 = $('#box1').width();
+    var ubahTinggi = $("#box1").height(120).width(120)
+    $('#box1').text(nilaiBox1);
 });
 
