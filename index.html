@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Basic</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      #box1{
+        background: black;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin: 10px;
+        border: 5px solid yellow;
+      }
+      .change{
+        background: blanchedalmond;
+        color: royalblue;
+      }
+    </style>
+</head>
+<body>
+    <img src="js.jpg" width="300" alt="Image JS">
+    <h1>Jquery Basic</h1>
+    <div id="box1">BOX 1</div>
+
+    <button id="showBtn">Show</button>
+    <button id="hideBtn">Hide</button>
+    <button id="toggleBtn">Toogle</button>
+    <br>
+    <button id="slideUpBtn">Slid Up</button>
+    <button id="slideDownBtn">Slide Down</button>
+    <button id="slideToggleBtn">Toogle Slide Up Down</button>
+    <br>
+    <button id="fadeInBtn">Fade In</button>
+    <button id="fadeOutBtn">Fade Out</button>
+    <button id="fadeToInBtn">Fade To In</button>
+    <button id="fadeToOutBtn">Fade To Out</button>
+    <button id="fadeToggleBtn">Toogle Fade</button>
+    <br>
+    <button id="stopBtn">Stop</button>
+    <button id="chainingBtn">Chaining</button>
+  
+
+
+    <div id="wrap_boxes">
+      <div class="boxes">Baris Pertama</div>
+      <div class="boxes">Baris Pertama</div>
+      <div class="boxes">Baris Pertama</div>
+    </div>
+    <br><br><br><br><br>
+
+    <div id="divPertama">
+      <p>ini div pertama</p>
+      <div id="divKedua">
+        <p>ini div Kedua </p>     
+        <div id="divKetiga">
+          <p>ini div ketiga</p>
+          <div id="divKeempat">
+              <p>ini div keempat</p>
+      
+              <ul>
+                <li id="listPertama">List Pertama</li>
+              </ul>
+      
+              <ul>
+                <li>List Kedua</li>
+              </ul>
+      
+              <ul>
+                <p>Paragraf atas</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React JS</li>
+                <li id="nodeJS">Node JS</li>
+                <li>Vue JS</li>
+                <li id="Python">Python</li>
+                <li>Flask</li>
+                <div>
+                  <p>Paragraf dalam</p>
+                  <span>Span dalam</span>
+                </div>
+                <li>Django</li>
+                <li id="PHP">PHP</li>
+                <li>Laravel</li>
+                <li>CI</li>
+                <span>Span luar</span>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <form>
+        <input type="text" id="inputText">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="ChildrenParent.js"></script>
+
+</body>
+</html>
